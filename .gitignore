@@ -11,6 +11,8 @@
 /data/proxy/nginx/sites-enabled/*
 !/data/proxy/nginx/sites-enabled/.keep
 !/data/proxy/
+/data/tmp-scalelight-recording/*
+!/data/tmp-scalelight-recording/.keep
 
 /tmp*
 
