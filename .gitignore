@@ -5,15 +5,6 @@
 /scalelite/log*
 /scalelite/tmp*
 
-/data/*
-/data/proxy/nginx/log/*
-!/data/proxy/nginx/log/.keep
-/data/proxy/nginx/sites-enabled/*
-!/data/proxy/nginx/sites-enabled/.keep
-!/data/proxy/
-/data/tmp-scalelight-recording/*
-!/data/tmp-scalelight-recording/.keep
-
 /tmp*
 
 /log*
