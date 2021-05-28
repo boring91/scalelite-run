@@ -94,6 +94,7 @@ services:
     volumes:
       - ${SCALELITE_RECORDING_DIR-/mnt/scalelite-recordings/var/bigbluebutton}:/var/bigbluebutton
       - ${SCALELITE_RECORDING_DIR-/mnt/scalelite-recordings/var/bigbluebutton}/spool:/var/bigbluebutton/spool
+      - ./data/tmp-scalelite-recording:/var/bigbluebutton/recording/scalelite
     depends_on:
       - postgres
       - redis
